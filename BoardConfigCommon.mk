@@ -137,6 +137,7 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
 # Power
 TARGET_CHARGE_RATE_MULTIPLIER := 1000
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
